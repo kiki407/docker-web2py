@@ -1,2 +1,2 @@
 # About this repo
-The repo contains the Docker image for the [web2py](http://www.web2py.com/) web framework. See the hub page. 
+Alpine version of the [TheHipbot/docker-web2py](https://github.com/TheHipbot/docker-web2py) version.
