@@ -26,7 +26,7 @@ RUN apk update && \
 		pcre-dev \
 		supervisor
 
-RUN	pip install setuptools --no-use-wheel --upgrade && \
+RUN	pip install setuptools --upgrade && \
 	pip install --upgrade pip && \
 	PIPPATH=`which pip` && \
 	$PIPPATH install --upgrade uwsgi && \
